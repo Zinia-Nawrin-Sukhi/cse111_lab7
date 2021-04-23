@@ -1,0 +1,11 @@
+import java.util.Scanner;
+  class tester{
+  public static void main(String[]args){
+    Scanner sc=new Scanner (System.in);
+    
+    
+     mystring4 nai1=new mystring4("asdfgth");
+      System.out.println(nai1.endswith("htg"));
+      
+  }
+}

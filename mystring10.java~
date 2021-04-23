@@ -1,0 +1,12 @@
+class mystring10{
+  char[]c;
+  mystring2(String input){
+    c=input.toCharArray();
+  }
+  boolean equals(String c1){
+    char arr=c1.toCharArray();
+    if(c.length==c1.length)
+      return true;
+    else false;
+  }
+}

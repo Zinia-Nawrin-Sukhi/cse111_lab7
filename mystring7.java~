@@ -1,0 +1,22 @@
+class mystring7{
+   char[]c;
+  
+  mystring5(String s1){
+    c=s1.toCharArray();
+  }
+  public String replaceFirst(char first,char second){
+    int i=0;
+    char[] c2=new char[c.length];
+    for(i=0;i<c.length;i++){
+       c2[i]=c[i];
+    }
+    for(i=c.length;i>=0;i--){
+      if(c2[i]==first){
+        c2[i]=second;
+        break;
+      }
+    }
+    return String.valueOf(c2);
+  }
+}
+ 

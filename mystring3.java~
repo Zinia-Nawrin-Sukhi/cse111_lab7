@@ -1,0 +1,31 @@
+class mystring3{
+  char[]c;
+  
+  mystring3(String s1){
+    c=s1.toCharArray();
+  }
+  public boolean startswith(String s1;String s2){
+    char []first;
+    char[]second;
+    first=s1.toCharArray();
+    second=s2.toCharArray();
+    if(first.length<second.length){
+      return false;
+    }
+    else if (second.length==0){
+      return true;
+    }
+    else if (first.length>second.length){
+      int k=0;
+      for(int i=0;i<second.length;i++){
+        if( first[i]!=second[i]){
+       
+          return false;
+        }
+        else k++;
+      }
+      if(k==second.length)
+        return true;
+    }
+  }
+}

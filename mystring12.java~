@@ -1,0 +1,21 @@
+class mystring12{
+  char[]c;
+  mystring10(String input){
+    c=input.toCharArray();
+  }
+  int compareto(String s){
+    char[] arr=s.toCharArray();
+    if(arr.length=c.length){
+      System.out.println(0);
+    }
+    else if (arr.length>c.length){
+      System.out.println(10);
+    }
+    else if (arr.length>c.length){
+      System.out.println(-10);
+    }
+  }
+}
+    
+    
+    

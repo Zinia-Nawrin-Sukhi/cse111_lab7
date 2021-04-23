@@ -1,0 +1,9 @@
+class mystring2{
+  char[]c;
+  mystring(String input){
+    c=input.toCharArray();
+  }
+  char charAt(int n){
+    return(c[n]);
+  }
+}
